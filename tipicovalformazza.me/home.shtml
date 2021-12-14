@@ -11,11 +11,7 @@
     <script src="js/bootstrap.min.js"></script>
 
     <script src="jquery.bcome.js"></script>
-    <script>
-        $(document).bcome({
-            done: function() { alert('Done...'); }
-        });
-    </script>
+
 </head>
 <body>
 
@@ -76,5 +72,11 @@
 
         <!--#include file="footer.html" -->
 
+
+    <script>
+        $(document).bcome({
+            done: function() { alert('Done...'); }
+        });
+    </script>
 </body>
 </html>
