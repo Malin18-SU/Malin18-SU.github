@@ -9,6 +9,7 @@
     <link rel="stylesheet" href="../css/style.css">
     <script src="../js/bootstrap.js"></script>
     <script src="../js/bootstrap.min.js"></script>
+    <script src="../js/includeHTML.js"></script>
 
     <script src="https://cdn.jsdelivr.net/gh/openlayers/openlayers.github.io@master/en/v6.9.0/build/ol.js"></script>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/openlayers/openlayers.github.io@master/en/v6.9.0/css/ol.css">
@@ -24,7 +25,8 @@
 </head>
 <body>
 
-<!--#include file="header.html"  -->
+<div w3-include-html="header.html"></div>
+    
 <div class="row bg-light p-2">
     <div class="col-4 text-center m-auto p-1 d-block bg-opacity-25 bg-dark bg-gradient shadow rounded" id="Contatti">
         <p class="text-uppercase fw-bolder font-monospace">Questi sono i Nostri Contatti</p>
@@ -73,7 +75,8 @@
         })
     });
 </script>
-
-<!--#include file="footer.html"  -->
+<div w3-include-html="footer.html"></div>
+    
+<script>includeHTML();</script>
 </body>
 </html>

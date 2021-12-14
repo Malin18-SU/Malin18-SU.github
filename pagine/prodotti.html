@@ -9,10 +9,11 @@
     <link rel="stylesheet" href="../css/style.css">
     <script src="../js/bootstrap.js"></script>
     <script src="../js/bootstrap.js"></script>
+    <script src="../js/includeHTML.js"></script>
 </head>
 <body>
 
-<!--#include file="header.html"  -->
+<div w3-include-html="header.html"></div>
 
 <h3 class="text-center text-light-blue pt-2">I NOSTRI PRODOTTI</h3>
 <div class="row m-auto">    <!-- provare a fare div-row/div/card per card singole -->
@@ -41,6 +42,9 @@
     </div>
 </div>
 
-<!--#include file="footer.html"  -->
+<div w3-include-html="footer.html"></div>
+    
+   
+<script>includeHTML();</script>
 </body>
 </html>
