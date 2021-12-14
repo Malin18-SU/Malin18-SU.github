@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <title>I Nostri Contatti</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link rel="stylesheet" href="../css/bootstrap.css">
+    <link rel="stylesheet" href="../css/style.css">
+    <script src="../js/bootstrap.js"></script>
+    <script src="../js/bootstrap.min.js"></script>
+
+    <script src="https://cdn.jsdelivr.net/gh/openlayers/openlayers.github.io@master/en/v6.9.0/build/ol.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/openlayers/openlayers.github.io@master/en/v6.9.0/css/ol.css">
+
+
+    <style>
+        .map {
+            height: 400px;
+            width: 100%;
+        }
+    </style>
+
+</head>
+<body>
+
+<!--#include file="header.html"  -->
+<div class="row bg-light p-2">
+    <div class="col-4 text-center m-auto p-1 d-block bg-opacity-25 bg-dark bg-gradient shadow rounded" id="Contatti">
+        <p class="text-uppercase fw-bolder font-monospace">Questi sono i Nostri Contatti</p>
+        <p>telefono: 0324 256385</p>
+        <p> e-mail: contatti.tipico@aziendale.com</p>
+    </div>
+
+    <div class="col-4 text-center m-auto p-1 bg-opacity-25 bg-dark bg-gradient font-monospace shadow rounded" id="Social">
+        <p class="text-uppercase fw-bolder">I Nostri Social</p>
+        <link>
+    </div>
+</div>
+
+
+<div class="container bg-dark">
+    <br>
+    <h2 class="m-auto rounded text-light fw-bold text-uppercase font-monospace shadow w-25">Noi Siamo Qui!</h2>
+    <br>
+    <div id="map" class="map container-sm m-auto shadow p-2 bg-light rounded-3">
+    </div>
+    <br><br><br>
+</div>
+
+
+<script type="text/javascript">
+    let map = new ol.Map({
+        target: 'map',
+        layers: [
+            new ol.layer.Tile({
+                source: new ol.source.XYZ({
+                    url: 'https://tile.jawg.io/jawg-sunny/{z}/{x}/{y}.png?access-token=9iMyH2sJph0r35aQauOsAzSywPowEkgG08HMWIfErLDN9l8ew5LZjyh4yAZoGv5K'
+                })
+            })
+        ],
+        view: new ol.View({
+            center: ol.proj.fromLonLat([8.4, 46.2]),
+            zoom: 12
+        }),
+        style: new ol.style.Style({
+            image: new ol.style.Icon({
+                anchor: [8.5, 46.2],
+                anchorXUnits: 'fraction',
+                anchorYUnits: 'pixels',
+                src: 'https://openlayers.org/en/latest/examples/data/icon.png'
+            })
+        })
+    });
+</script>
+
+<!--#include file="footer.html"  -->
+</body>
+</html>

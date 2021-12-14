@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <title>I Nostri Dati</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="../css/bootstrap.css">
+    <script src="../js/bootstrap.js"></script>
+    <script src="../js/bootstrap.min.js"></script>
+
+</head>
+<body class="bg-gray MyFont">
+
+<!--#include file="header.html"  -->
+
+<!--#include file="footer.html"  -->
+</body>
+</html>

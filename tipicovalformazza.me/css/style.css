@@ -1,0 +1,58 @@
+body{
+    font-family: Helvetica, sans-serif;
+    font-size: 18px;
+    text-align: center;
+    background-image: url("../img/altro/bg.jpg");
+}
+.text-light-blue{
+    color: #3f74a2;
+}
+.bg-light-blue{
+    background-color: #3f74a2;
+}
+
+.text-dark-green{
+    color: #536664;
+}
+.bg-dark-green{
+    background-color: #536664;
+}
+
+.text-green{
+    color: #648418;
+}
+.bg-green{
+    background-color: #648418;
+}
+
+.text-gray{
+    color: #a49ca4;
+}
+.bg-gray{
+    background-color: #a49ca4;
+}
+
+.text-cyan{
+    color: #4c849c;
+}
+.bg-cyan{
+    background-color: #4c849c;
+}
+
+footer{
+    padding-top: 1%;
+    background-color: #536664;
+    bottom: 0px;
+}
+
+.btn-form{
+
+}
+
+textarea{
+    resize: none;
+}
+
+.bg-op-up:hover{
+    --bs-bg-opacity: 0.75;
+}

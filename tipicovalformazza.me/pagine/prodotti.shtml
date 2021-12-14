@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <title>I Nostri Prodotti</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link rel="stylesheet" href="../css/bootstrap.css">
+    <link rel="stylesheet" href="../css/style.css">
+    <script src="../js/bootstrap.js"></script>
+    <script src="../js/bootstrap.js"></script>
+</head>
+<body>
+
+<!--#include file="header.html"  -->
+
+<h3 class="text-center text-light-blue pt-2">I NOSTRI PRODOTTI</h3>
+<div class="row m-auto">    <!-- provare a fare div-row/div/card per card singole -->
+    <div class="card col-3 p-1" style="width: 290px; height: 450px">
+        <img alt="..." class="card-img-top" src="../img/prodotti/salumi/mortadella%20ossolana.jpg">
+        <div class="card-body">
+            <h3 class="card-title">Salumi</h3>
+            <p class="card-text">Qui troverai tutti i nostri profumati salumi!</p>
+        </div>
+
+    </div>
+
+    <div class="card col-3 p-1" style="width: 280px; height: 450px">
+        <img alt="..." class="card-img-top" src="../img/prodotti/formaggi/crodo%20nostrano.jpg">
+        <h3>Formaggi</h3>
+    </div>
+
+    <div class="card col-3 p-1" style="width: 280px; height: 450px">
+        <img alt="..." class="card-img-top" src="../img/prodotti/vini/ossolanum.jpg">
+        <h3>Vini</h3>
+    </div>
+
+    <div class="card col-3 p-1" style="width: 280px; height: 450px">
+        <img alt="..." class="card-img-top" src="../img/prodotti/mieli/castagno.jpg">
+        <h3>Mieli</h3>
+    </div>
+</div>
+
+<!--#include file="footer.html"  -->
+</body>
+</html>
