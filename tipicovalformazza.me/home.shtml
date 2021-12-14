@@ -9,6 +9,13 @@
     <link rel="stylesheet" href="css/bootstrap.css">
     <script src="js/bootstrap.js"></script>
     <script src="js/bootstrap.min.js"></script>
+
+    <script src="jquery.bcome.js"></script>
+    <script>
+        $(document).bcome({
+            done: function() { alert('Done...'); }
+        });
+    </script>
 </head>
 <body>
 
