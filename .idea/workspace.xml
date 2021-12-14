@@ -10,7 +10,10 @@
       <change beforePath="$PROJECT_DIR$/footer.html" beforeDir="false" afterPath="$PROJECT_DIR$/footer.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/header.html" beforeDir="false" afterPath="$PROJECT_DIR$/header.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pagine/contatti.html" beforeDir="false" afterPath="$PROJECT_DIR$/pagine/contatti.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pagine/footer.html" beforeDir="false" afterPath="$PROJECT_DIR$/pagine/footer.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pagine/informazioni.html" beforeDir="false" afterPath="$PROJECT_DIR$/pagine/informazioni.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pagine/prodotti.html" beforeDir="false" afterPath="$PROJECT_DIR$/pagine/prodotti.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -82,7 +85,7 @@
       <workItem from="1639507280791" duration="412000" />
       <workItem from="1639516146168" duration="2075000" />
       <workItem from="1639518404810" duration="6000" />
-      <workItem from="1639518838371" duration="2059000" />
+      <workItem from="1639518838371" duration="3007000" />
     </task>
     <servers />
   </component>

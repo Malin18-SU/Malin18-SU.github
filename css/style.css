@@ -61,10 +61,11 @@ footer{
 
 }
 
-textarea{
-    resize: none;
+.btn-lin {
+    color: #DBE3D6;
+    background-color: #5EAC74;
 }
 
-.bg-op-up:hover{
-    --bs-bg-opacity: 0.75;
+textarea{
+    resize: none;
 }
