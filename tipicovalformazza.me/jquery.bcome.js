@@ -80,4 +80,4 @@
 
 		return this.data('bcome', processor);
 	};
-})(jQuery);
+});
