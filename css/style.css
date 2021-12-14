@@ -2,47 +2,59 @@ body{
     font-family: Helvetica, sans-serif;
     font-size: 18px;
     text-align: center;
-    background-image: url("../img/altro/bg.jpg");
-}
-.text-light-blue{
-    color: #3f74a2;
-}
-.bg-light-blue{
-    background-color: #3f74a2;
 }
 
-.text-dark-green{
-    color: #536664;
-}
-.bg-dark-green{
-    background-color: #536664;
+.bg-green-aspargus {
+    background-color: #465B4D;
 }
 
-.text-green{
-    color: #648418;
-}
-.bg-green{
-    background-color: #648418;
+.text-dark-aspargus {
+    color: #465B4D;
 }
 
-.text-gray{
-    color: #a49ca4;
+.bg-outer-green {
+    background-color: #3D4E42;
 }
-.bg-gray{
-    background-color: #a49ca4;
+.text-outer-green {
+    color: #3D4E42;
 }
 
-.text-cyan{
-    color: #4c849c;
+.bg-dolphin-green {
+    background-color: #7E907F;
 }
-.bg-cyan{
-    background-color: #4c849c;
+
+.text-dolphin-green {
+    color: #7E907F;
+}
+
+.bg-light-silver {
+    background-color: #D4DFD1;
+}
+
+.text-light-silver {
+    color: #D4DFD1;
+}
+
+.bg-gray {
+    background-color: #DBE3D6;
+}
+
+.text-gray {
+    color: #DBE3D6;
+}
+
+.bg-forest-green {
+    background-color: #5EAC74;
+}
+
+.text-forest-green {
+    color: #5EAC74;
 }
 
 footer{
     padding-top: 1%;
     background-color: #536664;
-    bottom: 0px;
+    bottom: 0;
 }
 
 .btn-form{
