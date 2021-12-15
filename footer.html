@@ -20,21 +20,34 @@
     </div>
 
     <div class="col-4">
-        <form class="form-floating form-text">
-            <div class="bg-dark rounded shadow">
-                <label>
-                    <input type="text" class="btn-form" style="width: 80px;" placeholder="Nome">
-                    <input type="text" class="btn-form" style="width: 80px;" placeholder="Cognome">
-                    <input type="text" class="btn-form" style="width: 80px;" placeholder="E-mail">
-                    <textarea class="" ></textarea>
-                </label>
+        <form class="form-text MyForm bg-dark rounded shadow">
+            <div class="row">
+                <div class="col-6">
+                    <label for="nome">Il Tuo Nome</label>
+                    <input type="text" class="form-control" id="nome" placeholder="Nome">
+
+                    <label for="cognome">Il Tuo Cognome</label>
+                    <input type="text" class="form-control" id="cognome" placeholder="Cognome">
+
+                    <label for="email">La Tua Email</label>
+                    <input type="text" class="form-control" id="email" placeholder="E-mail">
+                </div>
+
+                <div class="col-6">
+                    <label for="testo">Contattaci!</label>
+                    <input type=text class="form-control noresize" id="testo">
+                </div>
+
+
             </div>
         </form>
     </div>
 
-    <div class="p-1">
-        <p class="m-auto ps-5 text-center fw-dark text-light-silver">Copyright di Tipico s.r.l.</p>
-    </div>
+
 </footer>
+<div class="p-1 bg-outer-green row">
+    <p class="m-auto ps-5 text-center fw-dark text-light-silver">Copyright di Tipico s.r.l.</p>
+</div>
+
 
 <!-- *** end of footer.html *** -->
