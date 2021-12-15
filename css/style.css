@@ -70,6 +70,11 @@ footer{
     margin: 5%;
     width: 500px;
     height: 250px;
+
+}
+
+.cover {
+    background-size: cover;
 }
 
 .noresize{
@@ -78,6 +83,34 @@ footer{
     width: 80%;
     height: 55%;
 
+}
+
+.fa {
+    padding: 15px;
+    font-size: 30px;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+}
+
+.fa:hover {
+    opacity: 0.7;
+}
+
+.fa-facebook-official {
+    background: #3B5998;
+    color: white;
+}
+
+.fa-whatsapp {
+
+    background-color: #25d366;
+    color: white;
+}
+
+.fa-instagram {
+    background-image: linear-gradient(135deg, #002296, #82008F, #C0007A, #EA0C5F, #FF5341, #FF8820, #F6BA00);
+    color: white;
 }
 
 @media
