@@ -75,6 +75,8 @@ footer{
 .noresize{
     resize: none;
     display: block;
+    width: 80%;
+    height: 55%;
 
 }
 
