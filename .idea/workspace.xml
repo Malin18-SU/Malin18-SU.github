@@ -5,25 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e5e22843-c162-4ae9-8943-5a07cdaf7438" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/jsLibraryMappings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/jsLibraryMappings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/style.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/footer.html" beforeDir="false" afterPath="$PROJECT_DIR$/footer.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/carousel/desktop.ini" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/carousel/img1.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/carousel/img2.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/carousel/img3.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/carousel/img4.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/carousel/img5.jpg" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pagine/contatti.html" beforeDir="false" afterPath="$PROJECT_DIR$/pagine/contatti.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pagine/footer.html" beforeDir="false" afterPath="$PROJECT_DIR$/pagine/footer.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pagine/informazioni.html" beforeDir="false" afterPath="$PROJECT_DIR$/pagine/informazioni.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pagine/prodotti.html" beforeDir="false" afterPath="$PROJECT_DIR$/pagine/prodotti.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pagine/prodotti/formaggi.html" beforeDir="false" afterPath="$PROJECT_DIR$/pagine/prodotti/formaggi.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pagine/prodotti/mieli.html" beforeDir="false" afterPath="$PROJECT_DIR$/pagine/prodotti/mieli.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pagine/prodotti/salumi.html" beforeDir="false" afterPath="$PROJECT_DIR$/pagine/prodotti/salumi.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pagine/prodotti/temp_prodotti.html" beforeDir="false" afterPath="$PROJECT_DIR$/pagine/prodotti/temp_prodotti.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -96,7 +83,7 @@
       <workItem from="1639516146168" duration="2075000" />
       <workItem from="1639518404810" duration="6000" />
       <workItem from="1639518838371" duration="10522000" />
-      <workItem from="1639588899455" duration="11007000" />
+      <workItem from="1639588899455" duration="13990000" />
     </task>
     <servers />
   </component>
